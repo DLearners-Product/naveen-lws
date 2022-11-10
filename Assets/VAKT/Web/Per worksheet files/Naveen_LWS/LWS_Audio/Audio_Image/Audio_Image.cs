@@ -252,7 +252,7 @@ public class Audio_Image : MonoBehaviour
         {
             TEX_worksheetInstruction.gameObject.GetComponent<AudioSource>().Play();
          // Debug.Log("Playing Instruction audio = " + TEX_worksheetInstruction.gameObject.GetComponent<AudioSource>().clip.length);
-            Invoke(nameof(BUT_Speaker), TEX_worksheetInstruction.gameObject.GetComponent<AudioSource>().clip.length);
+            Invoke(nameof(BUT_Speaker), TEX_worksheetInstruction.gameObject.GetComponent<AudioSource>().clip.length + 1f);
         }
         else
         {

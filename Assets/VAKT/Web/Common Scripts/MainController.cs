@@ -81,8 +81,8 @@ public class MainController : MonoBehaviour
 
 
             //  testing
-              STR_childID = "336";
-              mode = "live";
+            //   STR_childID = "336";
+            //   mode = "live";
            //  mode = "preview"; 
 
             // Live
@@ -103,7 +103,7 @@ public class MainController : MonoBehaviour
             //  STR_GameID = "541"; // WordSearch
             //  STR_GameID = "335"; // Notetaking
             //  STR_GameID = "505"; // II_click
-                STR_GameID = "722"; // II_click
+                // STR_GameID = "741"; // II_click
 
 
             //Live
